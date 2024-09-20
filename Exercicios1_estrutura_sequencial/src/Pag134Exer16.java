@@ -25,6 +25,9 @@ public class Pag134Exer16 {
 		area = (base * altura)/2f;
 		System.out.printf("\n A Area do tringulo = %.2f", area);
 		
+		
+		 System.out.println("Pressione Enter para sair...");
+	     new Scanner(System.in).nextLine();  // Aguarda o usuário pressionar Enter
 		 scan.close();
 	}
 
