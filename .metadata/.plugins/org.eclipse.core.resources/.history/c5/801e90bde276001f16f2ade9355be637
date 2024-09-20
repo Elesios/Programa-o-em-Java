@@ -1,0 +1,45 @@
+/*4. Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito.
+Foram obtidos os seguintes dados:
+a) código da cidade; 
+b) número de veículos de passeio; 
+c) número de acidentes de trânsito com vítimas. 
+Deseja-se saber:
+a) qual é o maior e qual é o menor índice de acidentes de trânsito e a que cidades pertencem; 
+b) qual é a média de veículos nas cinco cidades juntas; 
+c) qual é a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
+*/
+
+import java.util.Scanner;
+
+public class Pag119Exer09 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+				
+				for (int i = 1 ; i <= 5; i++) {
+					System.out.println("Digite o codico da cidade:");
+					int codico_cidade = scan.nextInt();
+					System.out.println("Digite o Numero de Veiculos:");
+					int acidente_cidade = scan.nextInt();
+					System.out.println("Digite o Numero de Acidentes:");
+					int vitimas = scan.nextInt();
+					
+					if (i == 1) {
+					int maior = vitimas;
+					int cid_maior = codico_cidade;
+					int menor_acident = vitimas;
+					int cid_menor = codico_cidade;
+					} else if (vitimas > maior) {
+						int maior = vitimas;
+						int cid_maior = codico_cidade;						
+					} else if(vitimas < maior) {
+						int menor_acident = vitimas;
+						int cid_menor = codico_cidade;						
+					}
+					
+				}	
+				
+	
+	}	
+
+}
