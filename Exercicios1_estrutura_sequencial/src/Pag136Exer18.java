@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pag136qExer18 {
+public class Pag136Exer18 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
