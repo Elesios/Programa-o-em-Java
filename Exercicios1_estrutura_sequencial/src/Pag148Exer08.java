@@ -20,7 +20,7 @@ public class Pag148Exer08 {
 		int idade, cont_id_50 = 0, media_idade = 0, cont_p = 0;
 		int olhos_azuis = 0, cont_nao_A_R = 0;
 		float altura = 0, peso = 0;
-		char[] olhos = {'A','P','V','C'}, cabelo = {'P','C','L','R'};;
+		char[] olhos = {'A','P','V','C'}, cabelo = {'P','C','L','R'};
 		
 		char OlhosAleatorio, cabeloAletorio;
 		

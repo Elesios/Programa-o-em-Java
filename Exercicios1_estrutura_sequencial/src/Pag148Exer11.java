@@ -88,7 +88,7 @@ public class Pag148Exer11 {
 				 break;
 			}
 			case 18:{
-				 juros = carro * 0.09f;	
+				 juros = carro * 0.09f;
 				 valor_veiculo = carro + juros;
 				 parcela_valor = valor_veiculo / parcela;
 				 System.out.printf("\nValor do veiculo: %.2f", carro);
