@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class Pag149Exer08 {
+public class Pag148Exer08 {
 
 	/*Faça um programa que receba a idade, o peso, a altura, a cor dos olhos (A — azul; P — preto; V — verde; e 
 	C — castanho) e a cor dos cabelos (P — preto; C — castanho; L — louro; e R — ruivo) de seis pessoas, e que 
